@@ -15,6 +15,7 @@
 /* Color selection box styling */
 .ebcp-selector {
   box-sizing: content-box;
+  cursor: default;
 
   /* Prevent highlight on drag */
   -webkit-user-select: none;
