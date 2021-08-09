@@ -3,7 +3,10 @@ Eight Bit Color Picker
 
 > UI component for picking a color from arbitrary 256 color palettes
 
-<img alt="Screenshot of color picker" src="http://i.imgur.com/NTFkbnT.png?1" width="420" height="290">
+![palette image](palette.png)
+
+[このリポジトリ](https://github.com/bilalq/eight-bit-color-picker)をフォークして、自作アプリで使い勝手がよくなるように修正しました。
+うまくminifyできなかったので、libから直接使うといいかと思います。
 
 This is a simple, flexible color-picker widget. It has no dependencies (not
 even on jQuery), so it's easy to just plug in and use. It weighs less than 3kb
@@ -14,23 +17,11 @@ Since it exposes itself via the
 it will comply with whatever module loading system you're using. If you're
 not using one, it will expose a global called `EightBitColorPicker`.
 
-If you're using Angular, there is 
-[a directive](https://github.com/bilalq/ng8BitColorPicker) that builds on top of 
-this that you can use.
-
 Install
 -------
-You can of course go through the old-school copy/pasta routine, but here's the
-incantation to pull this in using Bower:
 
 ```sh
-bower install --save eight-bit-color-picker
-```
-
-And for those that prefer component:
-
-```sh
-component install bilalq/eight-bit-color-picker
+npm install fktk/eight-bit-color-picker
 ```
 
 Quick Start
@@ -81,12 +72,9 @@ You can even update the palette of an already instantiated picker by invoking
 
 Documentation
 -------------
-See [this page](http://bilalq.github.io/eight-bit-color-picker/) for documentation.
+フォーク元様のマニュアルです。
 
-Browser Requirements
---------------------
-This will work in all modern browsers. If you're worried about IE, this should
-work fine on IE10 and up.
+See [this page](http://bilalq.github.io/eight-bit-color-picker/) for documentation.
 
 License
 -------
