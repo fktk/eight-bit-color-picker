@@ -5,7 +5,7 @@ Eight Bit Color Picker
 
 ![palette image](palette.png)
 
-[このリポジトリ](https://github.com/bilalq/eight-bit-color-picker)をフォークして、自作アプリで使い勝手がよくなるように修正しました。
+[このリポジトリ](https://github.com/bilalq/eight-bit-color-picker)をクローンして、自作アプリで使い勝手がよくなるように修正しました。
 うまくminifyできなかったので、libから直接使うといいかと思います。
 
 This is a simple, flexible color-picker widget. It has no dependencies (not
@@ -78,4 +78,4 @@ See [this page](http://bilalq.github.io/eight-bit-color-picker/) for documentati
 
 License
 -------
-[MIT](https://github.com/bilalq/eight-bit-color-picker/blob/master/LICENSE)
+[MIT](LICENSE)
